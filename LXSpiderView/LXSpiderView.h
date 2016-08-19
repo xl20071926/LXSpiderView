@@ -20,6 +20,7 @@ typedef NS_ENUM(NSInteger, LXSpiderPointPosition) { // 顶点位置
 @interface LXSpiderView : UIView
 
 @property (nonatomic, strong) NSArray *valueArray;
+@property (nonatomic, strong) NSArray *titleArray;
 
 - (instancetype)initWithFrame:(CGRect)frame radius:(CGFloat)radius;
 

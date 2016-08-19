@@ -21,6 +21,7 @@
     
     LXSpiderView *spiderView = [[LXSpiderView alloc] initWithFrame:CGRectMake(100.f, 100.f, 200.f, 200.f) radius:80.f];
     spiderView.valueArray = @[@(0.5), @(0.6), @(0.4), @(0.8), @(0.9)];
+    spiderView.titleArray = @[@"力量", @"智力", @"敏捷", @"体质", @"耐力"];
     [self.view addSubview:spiderView];
 }
 
